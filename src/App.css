@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(47, 42, 42); 
+  
+}
+.container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+  position: relative;
+}
+.boxs{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 44px;
+}
+.shadow{
+  box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
+  0px 2px 4px rgba(0,255,255,0.5), 
+  0px 4px 8px rgba(0,255,255,0.5), 
+  0px 8px 16px rgba(0,255,255,0.5);
+  border-radius: 30px;
+  transition: 0.6s;
+  cursor: pointer;
+ 
+}
+.shadow:hover{
+  
+  transform:scale(1.2);
+  
+}
+.Form{
+  width: 160px;
+  height: 50px;
+  background-color:rgb(83, 94, 94);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  transition: 0.5s;
+  
+}
+.Form>button{
+  cursor: pointer;
+}
+
+
+.Form:hover{
+  width:360px;
+}
+input{
+  width: 50%;
+  height: 100%;
+  margin-left: 30px;
+  outline: none;
+  border: 0px;
+  background-color: transparent;
+  color:white
+}
+button{
+  width: 50px;
+  height: 100%;
+  outline: none;
+  border-radius: 50px;
+  border: 0px;
+  
+}
+i{
+  font-size: 20px;
+}
+
+.marvel{
+  width: 50%;
+  min-width: 500px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.modal-content{
+  display: flex;
+  width: 730px;
+  height:auto;
+  align-items: center;
+  
+  gap: 10px;
+  border-radius: 30px;
+  
+
+}
+#modaling{
+  align-content: center;
+}
+.yazi{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  
+  
+}
+.modal-content>img{
+  width: 300px;
+  height: 100%;
+  border-radius: 30px 0 0 30px;
+  
+}
+.modal-content>h1{
+  text-align: center;
+}
+#abc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+@media screen and (max-width: 800px){
+  .modal-content>img{
+    width: 252px;
+    height: 100%;
+  }
+  .yazi{
+    width: 252px;
+    height: 100%;
+  }
+  .modal-content{
+    width: 504px;
+    height: 100%;
+  }
+} 
+@media screen and (max-width: 376px){
+  .modal-content>img{
+    width: 160px;
+    height: 100%;
+  }
+  .yazi{
+    width: 160px;
+    height: 100%;
+  }
+  .modal-content{
+    width: 320px;
+    height: 100%;
+  }
+}
