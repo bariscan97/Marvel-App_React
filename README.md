@@ -1,4 +1,4 @@
-# Marvel_Api React Axios
+# Marvel_App_React Axios
 
 ## Link ==> https://marvel-api-react-axios.netlify.app/
 <br>
